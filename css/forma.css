@@ -1,0 +1,54 @@
+body{
+/*{background-color: powderblue;}*/
+background: #ffc;
+
+max-width:800px;
+width:80%;
+margin:auto;
+/*       fent bal*/
+/*margin:0 100px;*/
+/*margin:100px 100px;*/
+/*         fent bal   lent  jobb*/
+/*margin: 100px 100px 100px 100px;*/
+}
+
+h1{
+	background: powderblue;
+}
+
+h2{
+		color: red;
+		clear: both; /*float megszüntetése*/
+	}
+	
+	p{
+		text-align: justify; /*left|right|center*/
+	}	
+	#lablec{
+		text-align: center;
+		font-weight: bold;
+		border: 5px solid red; /*dashed | dotted | doubled*/
+		/*border-top: 5px solid:red;*/
+		clear: both;
+		}
+	a:link{
+		color:red;
+	}
+	a:visited{
+		color:pink;
+	}
+	a:hover{
+		color:green;
+		text-decoration:none; /*leszedi az aláhúzást*/
+		font-size: 20px; /*beállítja 20 pixelre*/
+	}
+	a:active{
+		color:black;
+	}
+	img{
+		width:150px;
+		float: left;
+		border: 4px solid powderblue;
+		margin-right: 10px
+	}
+	
